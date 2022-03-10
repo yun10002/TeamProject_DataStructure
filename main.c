@@ -8,12 +8,16 @@ int main_menu();
 int produc_menu();
 int material_menu(); 
 int marketing_menu();
+void con_regi_choice();
+//int con_regi();
+void createTable();
 
 int main() {
+	createTable();
 	int main_choice = 0, produc_choice = 0, material_choice = 0, marketing_choice = 0; 
 
 	login();
-
+	
 	while (1) {
 		main_choice = main_menu();
 		Sleep(1000);
@@ -91,12 +95,14 @@ int main() {
 			while (1) {
 				marketing_choice = marketing_menu();
 				if (marketing_choice == 1) {
-				
+					Sleep(1000);
+					system("cls");
+					con_regi_choice();
 				}
 				else if (marketing_choice == 2) {
-				
+					
 				}
-				else if (main_choice == 0) { //뒤로가기
+				else if (marketing_choice == 0) { //뒤로가기
 					Sleep(1000);
 					system("cls");
 					break;

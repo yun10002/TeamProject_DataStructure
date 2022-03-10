@@ -139,12 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="client.c" />
+    <ClCompile Include="contract_register.c" />
+    <ClCompile Include="contract_view.c" />
     <ClCompile Include="login.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="main_menu.c" />
     <ClCompile Include="marketing_menu.c" />
     <ClCompile Include="material_menu.c" />
     <ClCompile Include="produc_menu.c" />
+    <ClCompile Include="server.c" />
+    <ClCompile Include="table_create.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="local.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

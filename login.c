@@ -27,13 +27,13 @@ void login() {
 
 				if (strcmp(pw, pw_temp) == 0) { //비번 일치할 때
 					pw_check = 1;
-					printf("# 로그인 되었습니다!\n");
+					printf("\n# 로그인 되었습니다!\n");
 					Sleep(1000);
 					system("cls");
 					break;
 				}
 				else { //비번 불일치
-					printf("# 잘못된 비밀번호 입니다!\n");
+					printf("\n# 잘못된 비밀번호 입니다!\n");
 				}
 			}
 
@@ -43,7 +43,7 @@ void login() {
 		}
 
 		else {//아이디 불일치
-			printf("# 접근 권한이 없습니다!\n");
+			printf("\n# 접근 권한이 없습니다!\n");
 		}
 
 		system("pause");

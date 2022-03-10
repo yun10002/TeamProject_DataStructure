@@ -33,5 +33,25 @@
     <ClCompile Include="marketing_menu.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="table_create.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="client.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="server.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="contract_register.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="contract_view.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="local.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
