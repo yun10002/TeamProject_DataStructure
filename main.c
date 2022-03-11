@@ -8,12 +8,14 @@ int main_menu();
 int produc_menu();
 int material_menu(); 
 int marketing_menu();
+int con_view();
 void con_regi_choice();
-//int con_regi();
 void createTable();
 
 int main() {
 	createTable();
+	Create_File();
+	Init_SampleData();
 	int main_choice = 0, produc_choice = 0, material_choice = 0, marketing_choice = 0; 
 
 	login();
@@ -100,7 +102,9 @@ int main() {
 					con_regi_choice();
 				}
 				else if (marketing_choice == 2) {
-					
+					Sleep(1000);
+					system("cls");
+					con_view();
 				}
 				else if (marketing_choice == 0) { //뒤로가기
 					Sleep(1000);

@@ -4,10 +4,10 @@ void createTable() {
 	//_create("abcd", "code VARCHAR(20) number INT TP CHAR FLT FLOAT DBL DOUBLE");
 
 	// [수주등록]
-	_create("contract_regi", "con_num VARCHAR(10) con_date INT client VARCHAR(20) VAT VARCHAR(2) in_charge VARCHAR(20)");
+	_create("contract_regi", "con_num VARCHAR(10) con_date INT client VARCHAR(20) VAT INT in_charge VARCHAR(20)");
 
 	// [수주등록-물품등록]
-	_create("contract_item_regi", "con_num VARCHAR(10) NO INT date INT item_num VARCHAR(20) item_name VARCHAR(20) due_date INT date_shipment INT amount INT unit_price FLOAT supply_price FLOAT tax FLOAT total_price FLOAT");
+	_create("contract_item_regi", "con_num VARCHAR(10) NO INT item_num VARCHAR(50) item_name VARCHAR(50) due_date INT date_shipment INT amount INT unit_price INT supply_price INT tax INT total_price INT");
 
 	// [BOM] - BOM_Num(순번), BOM_Code(품번코드), BOM_Name(품명), BOM_Amount(수량)
 	_create("BOM", "BOM_Num INT BOM_Code VARCHAR(10) BOM_Name VARCHAR(20) BOM_Amount FLOAT");

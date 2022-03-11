@@ -147,12 +147,14 @@
     <ClCompile Include="main_menu.c" />
     <ClCompile Include="marketing_menu.c" />
     <ClCompile Include="material_menu.c" />
+    <ClCompile Include="MiniProject_ERP_1InitSampleData.c" />
     <ClCompile Include="produc_menu.c" />
     <ClCompile Include="server.c" />
     <ClCompile Include="table_create.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="local.h" />
+    <ClInclude Include="MiniProject_ERP_1struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

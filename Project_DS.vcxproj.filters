@@ -48,9 +48,15 @@
     <ClCompile Include="contract_view.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MiniProject_ERP_1InitSampleData.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="local.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniProject_ERP_1struct.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
